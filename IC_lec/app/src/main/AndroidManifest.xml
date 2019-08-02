@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic2"
+        android:label="Interactive Class"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Video"
+            android:label="الفيديوهات"/>
+
+        <activity android:name=".Home"
+            android:label="الواجبات"/>
+        <activity android:name=".Votting"
+            android:label="التصويت"/>
+        <activity android:name=".Record"
+            android:label="التسجيلات"/>
+        <activity android:name=".Exam"
+            android:label="الاختبارات"/>
+        <activity
+            android:name=".Library"
+            android:label="المكتبة" />
+        <activity
+            android:name=".Question"
+            android:label="الاسئلة" />
+
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="الصفحة الرئيسية"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

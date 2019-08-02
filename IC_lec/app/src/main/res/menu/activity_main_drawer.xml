@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_run"
+        android:icon="@drawable/run1"
+        android:title="تشغيل" />
+    <item
+        android:id="@+id/nav_stop"
+        android:icon="@drawable/s"
+
+        android:title="إيقاف" />
+    <item
+        android:id="@+id/nav_slide"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="التسجيلات" />
+    <item
+        android:id="@+id/nav_lab"
+        android:icon="@drawable/lab"
+        android:title="المكتبة" />
+
+    <item
+        android:id="@+id/nav_aspent"
+        android:icon="@drawable/aspentt"
+        android:title="تسجيل الحضور" />
+
+    <item
+        android:id="@+id/nav_question"
+        android:icon="@drawable/question"
+        android:title="الأسئلة" />
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/chat2"
+        android:title="الدردشة" />
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="الواجبات" />
+
+    <item
+        android:id="@+id/nav_vott"
+        android:icon="@drawable/vott"
+        android:title="نظام التصويت" />
+
+    <item
+        android:id="@+id/nav_hand"
+        android:icon="@drawable/hand"
+        android:title="رفع اليد" />
+    <item
+        android:id="@+id/nav_exam"
+        android:icon="@drawable/e"
+        android:title="الإختبار" />
+
+
+
+</menu>
+
